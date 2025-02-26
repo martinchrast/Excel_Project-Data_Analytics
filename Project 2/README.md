@@ -3,6 +3,10 @@
 
 As a job seeker, I’ve always been intrigued by the scarcity of data on the best job opportunities and most in-demand skills in the data science field. I wanted to explore what top employers look for and how to maximize earning potential.
 
+**Dashboard File**
+
+My Final Dashboard is in [Project 2](https://github.com/martinchrast/Excel_Project-Data_Analytics/blob/main/Project%202/Project_Analysis.xlsx)
+
 ### Question to Analyze
 
 To understand the data science job market, I asked the following:
