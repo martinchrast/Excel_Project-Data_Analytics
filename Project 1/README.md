@@ -68,3 +68,54 @@ IF(
 )
 ```
 
+- **Multi-Criteria Filtering**: Checks job title, country, schedule type, and excludes blank salaries.
+- **Array Formula**: Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array.
+- **Tailored Insight**: Provides specific salary information for job titles, regions, and schedule types.
+- **Formula Purpose**: This formula populates the table below, returning the median salary based on job title, country, and type specified.
+
+**Background Table**
+
+![image](https://github.com/user-attachments/assets/196778d2-560a-44fc-9f8d-8be8bdd13bee)
+
+
+**Dashboard Implementation**
+
+![image](https://github.com/user-attachments/assets/83938c0a-a5f3-4b3f-a040-744154195612)
+
+
+**Count of Job Schedule Type**
+
+```
+=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
+```
+
+- **Unique List Generation**: This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
+- **Formula Purpose**: This formula populates the table below, which gives us a list of unique job schedule types.
+
+**Background Table**
+
+![image](https://github.com/user-attachments/assets/4229ba9b-33cb-4f82-b6fb-e98e9bbe267b)
+
+**Dashboard Implementation**:
+
+![image](https://github.com/user-attachments/assets/bd6e1579-7d29-4bc0-afdc-74dd7711b0bb)
+
+**Data Validation**
+
+Filtered List
+
+- **Enhanced Data Validation**: Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:
+    - User input is restricted to predefined, validated schedule types
+    - Incorrect or inconsistent entries are prevented
+    - Overall usability of the dashboard is enhanced
+
+  ![image](https://github.com/user-attachments/assets/a4921a0b-8b96-4a2c-9305-50e3fc9bec36)
+
+## Conclusion
+
+I created this dashboard to provide insights into salary trends across various data-related job titles. Using data from an Excel course, the dashboard helps users make informed career decisions by analyzing how factors like location and job type influence salaries. Explore its functionalities to gain a deeper understanding of these trends.
+
+ 
+
+
+
