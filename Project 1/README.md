@@ -9,7 +9,7 @@ The data is from an Excel course, which provides a foundation in analyzing data 
 
 ### Dashboard File
 
-My final dashboard is in [Project 1](https://github.com/martinchrast/Excel_Project-Data_Analytics/tree/main/Project%201)
+My final dashboard is in [Project 1](https://github.com/martinchrast/Excel_Project-Data_Analytics/blob/main/Project%201/Data_Science_Salary_Calculator_project.xlsx)
 
 ### Excel Skills Used
 
